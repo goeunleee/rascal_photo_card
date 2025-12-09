@@ -18,8 +18,8 @@ const HandIconCircle = ({ kind, value }) => {
   }
 
   const colorMap = {
-    R: "rgba(100,181,246,0.9)", // 파랑
-    L: "rgba(239,83,80,0.9)", // 빨강
+    R: "rgba(74, 160, 226, 0.77)", // 파랑
+    L: "rgba(243, 130, 16, 0.9)", // 빨강
     S: "rgba(171,71,188,0.9)", // 보라 (양타)
     "?": "rgba(189,189,189,0.9)",
   };
@@ -67,6 +67,7 @@ const HandIconCircle = ({ kind, value }) => {
           fontSize: 40,
           fontWeight: 900,
           letterSpacing: 2,
+          fontFamily: 'Calibri, "Segoe UI", system-ui, sans-serif',
         }}
       >
         {side}

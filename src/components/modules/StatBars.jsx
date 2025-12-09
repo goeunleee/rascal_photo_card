@@ -15,6 +15,7 @@ const StatBars = ({ stat }) => {
         sx={{
           width: "100%",
           display: "flex",
+          gap: 1, 
         }}
       >
         {stat.map((item) => {
@@ -25,8 +26,9 @@ const StatBars = ({ stat }) => {
               key={item.label}
               sx={{
                 width: `${percent}%`, // ✅ 진짜 비율
-                paddingX: 0.5, // ✅ gap은 padding으로 해결
+              
                 boxSizing: "border-box",
+                
               }}
             >
               <StatBarItem

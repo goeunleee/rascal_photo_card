@@ -1,7 +1,7 @@
 import React from "react";
 import { styled } from "@mui/system";
 
-const StyledDivider = styled("div")({
+const StyledDivider = styled("hr")({
   width: "95%",
   height: "10px",
   opacity: 0.5,
